@@ -1,0 +1,27 @@
+section{
+    .logo_cont{
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        img{
+            display: block;
+            margin: auto;
+            object-fit: cover !important;
+            width: 20%;
+            height: auto;
+            @media screen and (max-width:900px) {
+                width: 50%;
+            }
+        }
+    }
+    span{
+        color:$withe;
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 25px;
+        text-align: center;
+        display: block;
+        @media screen and (max-width:900px) {
+            font-size: 1.6rem;
+        }
+    }
+}
