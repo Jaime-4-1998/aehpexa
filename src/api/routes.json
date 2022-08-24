@@ -1,0 +1,5 @@
+{
+    "/api/*": "/$5",
+    "/:resource/:dateOfBirth/show": "/:resource/:dateOfBirth",
+    "/students/:dateOfBirth": "/students?dateOfBirth=:dateOfBirth"
+}

@@ -1,16 +1,14 @@
 import React from 'react'
-import Init from '../components/Init'
 import Logo from '../components/Logo'
 import {Head} from '../components/Logo/Data'
-
+import InicioPer from '../components/InicioPer'
 const Home = () => {
     
     return (
         <>
            
-            <Init />
             <Logo {...Head} />
-
+            <InicioPer />
         </>
     )
 }
